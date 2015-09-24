@@ -6,6 +6,7 @@ def sprawdz_int(x):
 	return wynik
 
 print('hello world')
-zmienna = input('podaj liczbe')
+#zmienna = input('podaj liczbe')
+zmienna = '2'
 print('Liczba:'+zmienna)
 print(sprawdz_int(zmienna))
