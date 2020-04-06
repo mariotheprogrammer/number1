@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 
-def sprawdz_int(x):
-	wynik=x.isdigit()
-	print('Pozdro z funkcji')
-	return wynik
+
+def check_int(x):
+	result = x.isdigit()
+	print("Pozdro z funkcji")
+	return result
+
 
 print('hello world')
-#zmienna = input('podaj liczbe')
-zmienna = '2'
-print('Liczba:'+zmienna)
-print(sprawdz_int(zmienna))
+var1 = '2'
+print("Liczba:" + var1)
+print(check_int(var1))
